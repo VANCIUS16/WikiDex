@@ -5,4 +5,7 @@
     <string name="TituloWelcome">Seleccione un pokemon!</string>
     <string name="open_activity">Pokemon Name</string>
     <string name="open_activity2">Pokemon Name 2</string>
+    <string name="tituloProto2">Titulo Proto 2</string>
+    <string name="rounded_btn_proto3">rounded_btn_proto3</string>
+    <string name="rounded_btn_proto4">rounded_btn_proto4</string>
 </resources>

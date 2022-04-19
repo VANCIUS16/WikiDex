@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <TextView
+            android:textColor="#1B014C"
+            android:layout_width="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_columnWeight="1"
+            android:text="@string/tituloProto2"
+            android:textSize="30dp"
+            android:textAllCaps="true"/>
+        <Button
+            android:layout_margin="10dp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:onClick="addProduct"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:text="rounded_btn_proto1"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/imp"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="1"
+            android:layout_columnWeight="1"
+            android:onClick="mostrar"
+            android:text="rounded_btn_proto2"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill_horizontal"
+            android:text="@string/rounded_btn_proto3"
+            android:textColor="#FFFFFF"/>
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/btn2"
+            android:layout_width="150dp"
+            android:layout_height="110dp"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnWeight="1"
+            android:text="@string/rounded_btn_proto4"
+            android:textColor="#FFFFFF"/>
+    </GridLayout>
+</ScrollView>
