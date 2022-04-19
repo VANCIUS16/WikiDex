@@ -3,4 +3,6 @@
     <string name="TituloWelcomeMain">Bienvenido a la WikiDex4.0!</string>
     <string name="Titulo">WikiDex</string>
     <string name="TituloWelcome">Seleccione un pokemon!</string>
+    <string name="open_activity">Pokemon Name</string>
+    <string name="open_activity2">Pokemon Name 2</string>
 </resources>
